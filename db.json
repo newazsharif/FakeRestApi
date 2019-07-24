@@ -37,7 +37,7 @@
     "links": {
       "self": "/api/v1/inventory-sim-cards/898803981603009999"
     },
-    "id": "898803981603009999", //Is it the Sim Card Number, or imsi, icc?
+    "id": "898803981603009999", 
     "type": "inventory-sim-cards"
   }
 }
