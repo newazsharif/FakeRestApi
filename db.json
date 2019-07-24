@@ -7,5 +7,39 @@
   ],
   "profile": {
     "name": "typicode"
+  },
+  msisdnvalidation : {
+  "data": {
+    "attributes": {
+      "puk-1": "43009999",
+      "stock": 0,
+      "pin-1": "0000",
+      "icc": "898803981603009999",
+      "puk-2": "00000000",
+      "reservation-time": "2019-06-26T10:46:15.000+03:00",
+      "pin-2": "0000",
+      "ki": "FD8C1EF92D1239B4AE04CAE3C3009999",
+      "sim-type": "USIM",
+      "status": "in_use",
+      "reserved-for": "",
+      "is-preactivated": false,
+      "batch-id": "18",
+      "reserved-until": null,
+      "imsi": "470039803009999"
+    },
+    "relationships": {
+      "msisdn": {
+        "links": {
+          "related": "/api/v1/inventory-sim-cards/898803981603009999/msisdn"
+        }
+      }
+    },
+    "links": {
+      "self": "/api/v1/inventory-sim-cards/898803981603009999"
+    },
+    "id": "898803981603009999", //Is it the Sim Card Number, or imsi, icc?
+    "type": "inventory-sim-cards"
   }
+}
+
 }
