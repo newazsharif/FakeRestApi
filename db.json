@@ -8,7 +8,7 @@
   "profile": {
     "name": "typicode"
   },
-  msisdnvalidation : {
+  "msisdnvalidation" : {
   "data": {
     "attributes": {
       "puk-1": "43009999",
