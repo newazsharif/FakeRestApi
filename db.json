@@ -1,179 +1,234 @@
 {
-  "subscription_types" : {
-    "data": {
-      "attributes": {
-        "name": {
-          "en": "Postpaid 3G ICON PER",
-          "bn": "পোস্টপেইড 3G আইকন প্রতি"
-        },
-        "brand": "Djezzy",
-        "code": "B2B3GICONPER",
-        "business-model-type": "postpaid",
-        "payment-type": "postpaid",
-        "change-price": 0,
-        "change-price-currency": null,
-        "credit-limit": 0.000000
-      },
-      "relationships": {
-        "included-products": {
-          "links": {
-            "related": "/api/v1/subscription-types/13/included-products"
-          }
-        },
-        "billing-rate-plans": {
-          "links": {
-            "related": "/api/v1/subscription-types/13/billing-rate-plans"
-          }
-        },
-        "mandatory-products": {
-          "links": {
-            "related": "/api/v1/subscription-types/13/mandatory-products"
-          }
-        },
-        "option-group-products": {
-          "data": [
+    "subscription-types": {
+        "data": [
             {
-              "type": "subscription-type-products",
-              "id": "optiongroup-8-481"
+                "attributes": {
+                    "name": {
+                        "en": "Desh EK Rate Darun",
+                        "bn": "দেশ ইকে হার দারুন"
+                    },
+                    "brand": "Djezzy",
+                    "code": "DeshEkRateDarun",
+                    "business-model-type": "prepaid",
+                    "payment-type": "prepaid",
+                    "change-price": 0,
+                    "change-price-currency": null,
+                    "credit-limit": 0.000000
+                },
+                "relationships": {
+                    "included-products": {
+                        "links": {
+                            "related": "/api/v1/subscription-types/1/included-products"
+                        }
+                    },
+                    "billing-rate-plans": {
+                        "links": {
+                            "related": "/api/v1/subscription-types/1/billing-rate-plans"
+                        }
+                    },
+                    "mandatory-products": {
+                        "links": {
+                            "related": "/api/v1/subscription-types/1/mandatory-products"
+                        }
+                    },
+                    "option-group-products": {
+                        "links": {
+                            "related": "/api/v1/subscription-types/1/option-group-products"
+                        }
+                    },
+                    "option-groups": {
+                        "links": {
+                            "related": "/api/v1/subscription-types/1/option-groups"
+                        }
+                    },
+                    "fees": {
+                        "links": {
+                            "related": "/api/v1/subscription-types/1/fees"
+                        }
+                    },
+                    "optional-products": {
+                        "links": {
+                            "related": "/api/v1/subscription-types/1/optional-products"
+                        }
+                    }
+                },
+                "links": {
+                    "self": "/api/v1/subscription-types/1"
+                },
+                "id": "1",
+                "type": "subscription-types"
             },
             {
-              "type": "subscription-type-products",
-              "id": "optiongroup-8-530"
+                "attributes": {
+                    "name": {
+                        "en": "Banglalink Play",
+                        "bn": "বাংলালিংক প্লে"
+                    },
+                    "brand": "Djezzy",
+                    "code": "PlayPrepaid",
+                    "business-model-type": "prepaid",
+                    "payment-type": "prepaid",
+                    "change-price": 0,
+                    "change-price-currency": null,
+                    "credit-limit": 0.000000
+                },
+                "relationships": {
+                    "included-products": {
+                        "links": {
+                            "related": "/api/v1/subscription-types/2/included-products"
+                        }
+                    },
+                    "billing-rate-plans": {
+                        "links": {
+                            "related": "/api/v1/subscription-types/2/billing-rate-plans"
+                        }
+                    },
+                    "mandatory-products": {
+                        "links": {
+                            "related": "/api/v1/subscription-types/2/mandatory-products"
+                        }
+                    },
+                    "option-group-products": {
+                        "links": {
+                            "related": "/api/v1/subscription-types/2/option-group-products"
+                        }
+                    },
+                    "option-groups": {
+                        "links": {
+                            "related": "/api/v1/subscription-types/2/option-groups"
+                        }
+                    },
+                    "fees": {
+                        "links": {
+                            "related": "/api/v1/subscription-types/2/fees"
+                        }
+                    },
+                    "optional-products": {
+                        "links": {
+                            "related": "/api/v1/subscription-types/2/optional-products"
+                        }
+                    }
+                },
+                "links": {
+                    "self": "/api/v1/subscription-types/2"
+                },
+                "id": "2",
+                "type": "subscription-types"
             },
             {
-              "type": "subscription-type-products",
-              "id": "optiongroup-8-531"
+                "attributes": {
+                    "name": {
+                        "en": "Retailer 151",
+                        "bn": "খুচরা বিক্রেতা 151"
+                    },
+                    "brand": "Djezzy",
+                    "code": "Retailer151",
+                    "business-model-type": "prepaid",
+                    "payment-type": "prepaid",
+                    "change-price": 0,
+                    "change-price-currency": null,
+                    "credit-limit": 0.000000
+                },
+                "relationships": {
+                    "included-products": {
+                        "links": {
+                            "related": "/api/v1/subscription-types/3/included-products"
+                        }
+                    },
+                    "billing-rate-plans": {
+                        "links": {
+                            "related": "/api/v1/subscription-types/3/billing-rate-plans"
+                        }
+                    },
+                    "mandatory-products": {
+                        "links": {
+                            "related": "/api/v1/subscription-types/3/mandatory-products"
+                        }
+                    },
+                    "option-group-products": {
+                        "links": {
+                            "related": "/api/v1/subscription-types/3/option-group-products"
+                        }
+                    },
+                    "option-groups": {
+                        "links": {
+                            "related": "/api/v1/subscription-types/3/option-groups"
+                        }
+                    },
+                    "fees": {
+                        "links": {
+                            "related": "/api/v1/subscription-types/3/fees"
+                        }
+                    },
+                    "optional-products": {
+                        "links": {
+                            "related": "/api/v1/subscription-types/3/optional-products"
+                        }
+                    }
+                },
+                "links": {
+                    "self": "/api/v1/subscription-types/3"
+                },
+                "id": "3",
+                "type": "subscription-types"
             },
             {
-              "type": "subscription-type-products",
-              "id": "optiongroup-8-532"
-            },
-            {
-              "type": "subscription-type-products",
-              "id": "optiongroup-8-533"
-            },
-            {
-              "type": "subscription-type-products",
-              "id": "optiongroup-8-537"
-            },
-            {
-              "type": "subscription-type-products",
-              "id": "optiongroup-8-539"
-            },
-            {
-              "type": "subscription-type-products",
-              "id": "optiongroup-8-567"
+                "attributes": {
+                    "name": {
+                        "en": "Inspire Postpaid",
+                        "bn": "অনুপ্রেরণা পোস্টপেইড"
+                    },
+                    "brand": "Djezzy",
+                    "code": "InspirePostpaid",
+                    "business-model-type": "postpaid",
+                    "payment-type": "postpaid",
+                    "change-price": 0,
+                    "change-price-currency": null,
+                    "credit-limit": 0.000000
+                },
+                "relationships": {
+                    "included-products": {
+                        "links": {
+                            "related": "/api/v1/subscription-types/5/included-products"
+                        }
+                    },
+                    "billing-rate-plans": {
+                        "links": {
+                            "related": "/api/v1/subscription-types/5/billing-rate-plans"
+                        }
+                    },
+                    "mandatory-products": {
+                        "links": {
+                            "related": "/api/v1/subscription-types/5/mandatory-products"
+                        }
+                    },
+                    "option-group-products": {
+                        "links": {
+                            "related": "/api/v1/subscription-types/5/option-group-products"
+                        }
+                    },
+                    "option-groups": {
+                        "links": {
+                            "related": "/api/v1/subscription-types/5/option-groups"
+                        }
+                    },
+                    "fees": {
+                        "links": {
+                            "related": "/api/v1/subscription-types/5/fees"
+                        }
+                    },
+                    "optional-products": {
+                        "links": {
+                            "related": "/api/v1/subscription-types/5/optional-products"
+                        }
+                    }
+                },
+                "links": {
+                    "self": "/api/v1/subscription-types/5"
+                },
+                "id": "5",
+                "type": "subscription-types"
             }
-          ],
-          "links": {
-            "related": "/api/v1/subscription-types/13/option-group-products"
-          }
-        },
-        "option-groups": {
-          "links": {
-            "related": "/api/v1/subscription-types/13/option-groups"
-          }
-        },
-        "fees": {
-          "links": {
-            "related": "/api/v1/subscription-types/13/fees"
-          }
-        },
-        "optional-products": {
-          "links": {
-            "related": "/api/v1/subscription-types/13/optional-products"
-          }
-        }
-      },
-      "links": {
-        "self": "/api/v1/subscription-types/13"
-      },
-      "id": "13",
-      "type": "subscription-types"
-    },
-    "included": [
-      {
-        "attributes": {
-          "periodic-amount": 1,
-          "name": {
-            "en": "Postpaid 3G Icon PER-D-7",
-            "bn": "Postpaid 3G Icon PER-D-7"
-          },
-          "ussd-code": null,
-          "is-configurable": false,
-          "long-info-text": {
-            "en": null,
-            "bn": null
-          },
-          "periodic-unit": "bill_period",
-          "tags": [
-            ""
-          ],
-          "advice-on-charge": "{\"en\": null, \"bn\": null}",
-          "short-description": {
-            "en": null,
-            "bn": null
-          },
-          "code": "B2B3GICONPERD7",
-          "allow-re-activation": false,
-          "long-description": {},
-          "info-text": {
-            "en": null,
-            "bn": null
-          },
-          "charge-type": "rec_bill_period",
-          "medium-description": {
-            "en": "Postpaid 3G Icon PER-D-7",
-            "bn": "Postpaid 3G Icon PER-D-7"
-          },
-          "display-order": 999
-        },
-        "relationships": {
-          "services": {
-            "links": {
-              "related": "/api/v1/products/533/services"
-            }
-          },
-          "traffic-bundles": {
-            "links": {
-              "related": "/api/v1/products/533/traffic-bundles"
-            }
-          },
-          "option-group": {
-            "data": {
-              "type": "option-groups",
-              "id": "10"
-            },
-            "links": {
-              "related": "/api/v1/products/533/option-group"
-            }
-          },
-          "product-family": {
-            "data": {
-              "type": "product-families",
-              "id": "1"
-            },
-            "links": {
-              "related": "/api/v1/products/533/product-family"
-            }
-          },
-          "fees": {
-            "links": {
-              "related": "/api/v1/products/533/fees"
-            }
-          },
-          "product-relationships": {
-            "links": {
-              "related": "/api/v1/products/533/product-relationships"
-            }
-          }
-        },
-        "links": {
-          "self": "/api/v1/products/533"
-        },
-        "id": "533",
-        "type": "products"
-      }
-    ]
-  }
+        ]
+    }
 }
