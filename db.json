@@ -1,5 +1,5 @@
 {
-  subscription_types : {
+  "subscription_types" : {
     "data": {
       "attributes": {
         "name": {
